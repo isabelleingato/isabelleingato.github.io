@@ -14,7 +14,7 @@
 <title>Home</title>
   </head>
   <body>
-    <div class="col-md-4"><a href="ingato resume.pdf">Resume</a></div>
-    <div class="col-md-8"><h1>Isabelle Ingato</h1></div>
+    <div id="sidebar-menu" class="col-md-2"><a href="ingato_resume.pdf">Resume</a></div>
+    <div id="main" class="col-md-10"><h1>Isabelle Ingato</h1></div>
   </body>
 </html>

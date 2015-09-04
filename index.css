@@ -1,3 +1,13 @@
 h1 {
    text-align: center;
 }
+
+#sidebar-menu {
+   padding: 15px;
+   p {
+     padding: 10px;
+     a {
+       color: rgb(40,200,100);
+     }
+   }
+}
