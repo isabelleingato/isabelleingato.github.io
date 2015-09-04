@@ -1,3 +1,19 @@
 h1 {
    text-align: center;
 }
+
+#sidebar-menu {
+   padding: 20px;
+}
+
+#sidebar-menu > li {
+   padding: 10px;
+}
+
+#sidebar-menu > li > a {
+   color: rgb(30, 240, 150);
+}
+
+#sidebar-menu > li > a:hover {
+   text-decoration: none;
+}

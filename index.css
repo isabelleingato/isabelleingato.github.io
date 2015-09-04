@@ -3,11 +3,17 @@ h1 {
 }
 
 #sidebar-menu {
-   padding: 15px;
-   p {
-     padding: 10px;
-     a {
-       color: rgb(40,200,100);
-     }
-   }
+   padding: 20px;
+}
+
+#sidebar-menu > ul > li {
+   padding: 10px;
+}
+
+#sidebar-menu > ul > li > a {
+   color: rgb(30, 240, 150);
+}
+
+#sidebar-menu > ul > li > a:hover {
+   text-decoration: none;
 }
