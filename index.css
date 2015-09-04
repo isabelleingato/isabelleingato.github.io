@@ -1,9 +1,15 @@
+body {
+     background-color: #f5f5f5;
+}
+
 h1 {
    text-align: center;
 }
 
 #sidebar-menu {
    padding: 20px;
+   border: 2px;
+   border-color: black;
 }
 
 #sidebar-menu > ul {
@@ -15,7 +21,7 @@ h1 {
 }
 
 #sidebar-menu > ul > li > a {
-   color: rgb(100, 255, 100);
+   color: black;
 }
 
 #sidebar-menu > ul > li > a:hover {
