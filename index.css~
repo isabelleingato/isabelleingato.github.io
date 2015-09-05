@@ -1,3 +1,7 @@
+#about {
+  width: 100%;
+}
+
 body {
      background-color: #f5f5f5;
      text-align: center;
@@ -12,13 +16,15 @@ h3:before {
 }
 
 #profile {
-  float: right;
+  display: block;
+  margin-left: 50px;
 }
 
-p {
+#description {
+  display: block;
   float: left;
   text-align: left;
-  margin-right: 100px;
+  margin-right: 200px;
 }
 
 ul {
