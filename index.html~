@@ -6,11 +6,7 @@
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
 <link rel="stylesheet" href="index.css" />
-    
 <title>Home</title>
   </head>
   <body>
@@ -18,10 +14,13 @@
       <h1>Isabelle Ingato</h1>
       <h4>
 	<ul>
+	  <li><a href="#about">About</a></li>
 	  <li><a href="ingato_resume.pdf">Resume</a></li>
-	  <li><a href="#">Reading List</a></li>
+	  <li><a href="#projects">Projects</a></li>
 	</ul>
       </h4>
+      <div id="about"><h3>About</h3><p></p></div>
+      <div id="projects"><h3>Projects</h3></div>
     </div>
   </body>
 </html>
