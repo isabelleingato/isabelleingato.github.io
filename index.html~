@@ -22,10 +22,8 @@
       </h4>
       <div id="about">
 	<h3>About</h3>
-	<div>
-	  <img id="profile" src="profile_photo.jpg"></img>
-	  <p>I am a Junior in the Computer Science Department at Princeton.</p>
-	</div>
+	<img id="profile" src="profile_photo.jpg"></img>
+	<p>I am a Junior in the Computer Science Department at Princeton.</p>
       </div>
       <div id="projects"><h3>Projects</h3></div>
     </div>

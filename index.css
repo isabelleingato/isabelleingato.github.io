@@ -11,15 +11,16 @@ h3:before {
   visibility: hidden; 
 }
 
+span {
+     display: block;
+}
+
 #profile {
-  float: left;
-  margin-left: 300px;
-  margin-right: 40px;
+  
 }
 
 p {
-  float: left;
-  clear: both;
+  
 }
 
 ul {
