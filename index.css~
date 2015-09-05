@@ -1,29 +1,23 @@
 body {
-     background-color: rgb(86,90,92);
+     background-color: #f5f5f5;
+     text-align: center;
 }
 
-h1 {
-   text-align: center;
-}
-
-#sidebar-menu {
-   padding: 20px;
-   border: 2px;
-   border-color: black;
-}
-
-#sidebar-menu > ul {
+ul {
+   padding: 5px;
+   margin-top: 5px;
    list-style-type: none;
 }
 
-#sidebar-menu > ul > li {
-   padding: 10px;
+ul li {
+   display: inline;
+   padding-right: 5px;
 }
 
-#sidebar-menu > ul > li > a {
-   color: rgb(100, 255, 100);
+ul li > a {
+   color: black;
 }
 
-#sidebar-menu > ul > li > a:hover {
+ul li > a:hover {
    text-decoration: none;
 }

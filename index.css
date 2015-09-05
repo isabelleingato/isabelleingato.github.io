@@ -1,29 +1,31 @@
 body {
      background-color: #f5f5f5;
+     text-align: center;
 }
 
-h1 {
-   text-align: center;
+h3:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -285px; 
+  height: 285px; 
+  visibility: hidden; 
 }
 
-#sidebar-menu {
-   padding: 20px;
-   border: 2px;
-   border-color: black;
-}
-
-#sidebar-menu > ul {
+ul {
+   padding: 5px;
+   margin-top: 5px;
    list-style-type: none;
 }
 
-#sidebar-menu > ul > li {
-   padding: 10px;
+ul li {
+   display: inline;
+   padding-right: 5px;
 }
 
-#sidebar-menu > ul > li > a {
+ul li > a {
    color: black;
 }
 
-#sidebar-menu > ul > li > a:hover {
+ul li > a:hover {
    text-decoration: none;
 }
