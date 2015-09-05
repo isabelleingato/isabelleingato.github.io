@@ -1,3 +1,5 @@
+#text.col-xs-6
+
 body {
      background-color: #f5f5f5;
      text-align: center;
@@ -12,14 +14,13 @@ h3:before {
 }
 
 #profile {
-  float: left;
-  margin-left: 300px;
-  margin-right: 40px;
+  float: right;
 }
 
 p {
   float: left;
-  clear: both;
+  text-align: left;
+  margin-right: 100px;
 }
 
 ul {
