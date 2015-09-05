@@ -11,6 +11,16 @@ h3:before {
   visibility: hidden; 
 }
 
+#profile {
+  float: left;
+  margin-left: 200px;
+  margin-right: 25px;
+}
+
+p {
+  float: left;
+}
+
 ul {
    padding: 5px;
    margin-top: 5px;
