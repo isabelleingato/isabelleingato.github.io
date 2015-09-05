@@ -13,12 +13,13 @@ h3:before {
 
 #profile {
   float: left;
-  margin-left: 200px;
-  margin-right: 25px;
+  margin-left: 300px;
+  margin-right: 40px;
 }
 
 p {
   float: left;
+  clear: both;
 }
 
 ul {

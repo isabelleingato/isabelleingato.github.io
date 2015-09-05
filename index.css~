@@ -18,7 +18,7 @@ h3:before {
 }
 
 p {
-  display: block;
+  float: left;
 }
 
 ul {
