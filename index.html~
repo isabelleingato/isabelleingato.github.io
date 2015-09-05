@@ -18,7 +18,7 @@
 	<ul>
 	  <li><a href="https://www.linkedin.com/pub/isabelle-ingato/70/486/a74">LinkedIn</a></li>
 	  <li><a href="ingato_resume.pdf">Resume</a></li>
-	  <li><a href="#projects">Projects</a></li>
+	  <!--<li><a href="#projects">Projects</a></li>-->
 	</ul>
       </h4>
       <div id="about">
@@ -28,7 +28,7 @@
 	<h3>About</h3>
 	<span id="description">I am a Junior in the Department of Computer Science at Princeton University. There I am pursuing my Independent Work in the field of Natural Language Processing with particular focus on Sentiment Analysis. In my free time, I enjoy writing creatively and working on corporate outreach for Princeton Women in Computer Science.</span><br style="clear:both;"/>
       </div>
-      <div id="projects">
+      <!--<div id="projects">
 	<h3>Projects</h3>
 	<div id="projectPhotos" height="400" width="400" class="carausel slide" data-ride="carousel">
 	  <ol class="carousel-indicators">
@@ -51,7 +51,7 @@
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-      </div>
+      </div>-->
     </div>
   </body>
 </html>
