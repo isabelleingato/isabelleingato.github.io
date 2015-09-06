@@ -16,17 +16,14 @@ h3:before {
 #about {
   text-align:left;
   float:left;
+  margin-left: 100px;
+  margin-right: 50%;
 }
 
 span {
   font-family: inherit;
   text-align: left;
   display: table-cell;
-}
-
-#about {
-  margin-left: 25%;
-  margin-right: 25%;
 }
 
 #projects {
