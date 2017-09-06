@@ -57,7 +57,7 @@ ul {
    list-style-type: none;
 }
 
-ul li {
+#about ul li {
    display: inline;
    padding-right: 5px;
 }
