@@ -62,7 +62,7 @@ ul li {
    padding-right: 5px;
 }
 
-#books ul li {
+#books > ul li {
   display: list-item;
   list-style-type: disc;
   text-align: left;
