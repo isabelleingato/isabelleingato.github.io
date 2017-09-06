@@ -21,7 +21,7 @@ h3:before {
   margin-right: 70px;*/
 }
 
-span {
+#description {
   font-family: inherit;
   text-align: left;
   display: table-cell;
@@ -61,7 +61,6 @@ img {
   vertical-align: middle;
   border: 0px none;
   width: 140px;
-  margin-right: 20px;
 }
 
 ul {
