@@ -50,6 +50,7 @@ h3:before {
 
 #books {
     float: center;
+    position: relative;
     clear: left;
     display: inline-block;
     width: inherit;
