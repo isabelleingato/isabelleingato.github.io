@@ -35,7 +35,7 @@ span {
 
 #profile {
   float: left;
-  margin-right: 15px;
+  /*margin-right: 15px;*/
   display: inline-block;
   vertical-align: bottom;
   overflow: hidden;
@@ -49,7 +49,7 @@ span {
 }
 
 #books {
-    float: left;
+    float: center;
     clear: left;
     display: inline-block;
     width: inherit;
@@ -61,7 +61,7 @@ img {
   vertical-align: middle;
   border: 0px none;
   width: 140px;
-  margin-left: 20px;
+  margin-right: 20px;
 }
 
 ul {
@@ -79,6 +79,7 @@ ul li {
   display: list-item;
   list-style-type: disc;
   text-align: left;
+  float: left;
 }
 
 ul li > a {
