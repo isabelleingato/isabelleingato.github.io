@@ -59,6 +59,10 @@ h3:before {
     margin-left: 10px;
 }
 
+#books > ul {
+   margin-left: 20%;  
+}
+
 img {
   vertical-align: middle;
   border: 0px none;
