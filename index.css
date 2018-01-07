@@ -1,80 +1,13 @@
 body {
-     background-color: #f5f5f5;
-     text-align: center;
-     -moz-osx-font-smoothing: grayscale;
-     box-sizing: border-box;
-     margin: 10px;
-}
-
-h3:before { 
-  display: block; 
-  content: " "; 
-  /*margin-top: -285px; 
-  height: 285px; */
-  visibility: hidden; 
-}
-
-#about {
-  text-align:left;
-  float:left;
-  /*margin-left: 70px;
-  margin-right: 70px;*/
-}
-
-#description {
-  font-family: inherit;
-  text-align: left;
-  display: table-cell;
-}
-
-/*#projects {
-  clear: left;
-  margin-left: 25%;
-  margin-right: 25%;
-}*/
-
-#profile {
-  float: left;
-  margin-right: 15px;
-  display: block;
-  vertical-align: bottom;
-  overflow: hidden;
-  background-color:#f5f5f5;
-  position: relative;
-  backface-visibility: hidden;
-  border-radius: 20%;
-  width: inherit;
-  margin-bottom: 15px;
-  margin-top: 20px;
-  margin-left: 10%;
-}
-
-#books {
-    float: center;
-    position: relative;
-    clear: left;
-    display: block;
-    width: inherit;
-    margin-bottom: 15px;
-    margin-top: 20px;
-    margin-left: 10px;
-}
-
-#books > ul {
-   margin-left: 20%;  
-}
-
-img {
-  vertical-align: middle;
-  border: 0px none;
-  width: 140px;
+  background-color: #f5f5f5;
+  font-family: monospace;
+  text-align: center;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 ul {
-   padding: 5px;
-   margin-top: 5px;
-   margin-bottom: 5px;
-   list-style-type: none;
+ list-style-type: none;
+ margin: 5px;
 }
 
 ul li {
@@ -82,18 +15,42 @@ ul li {
    padding-right: 5px;
 }
 
+#about {
+  text-align: left;
+}
+
+#profile {
+  backface-visibility: hidden;
+  background-color: #f5f5f5;
+  border-radius: 20%;
+  display: block;
+  float: left;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+img {
+  border: 0px none;
+  width: 140px;
+  vertical-align: middle;
+}
+
+#books {
+  float: center;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+#books > ul {
+  margin-left: 20%;  
+}
+
 #books > ul li {
   display: list-item;
+  float: left;
   list-style-type: disc;
   text-align: left;
-  float: left;
-  clear: left;
-}
-
-ul li > a {
-   color: black;
-}
-
-ul li > a:hover {
-   text-decoration: none;
 }
