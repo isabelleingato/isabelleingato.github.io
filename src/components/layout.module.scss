@@ -1,0 +1,23 @@
+h1 {
+    display: inline;
+}
+
+.navLinks {
+    display: grid;
+    column-gap: 1rem;
+    grid-template-columns: repeat(3, auto);
+    justify-content: start;
+    list-style: none;
+    margin-left: 0;
+}
+
+footer {
+    background-color: #D0D0D0;
+    bottom: 0;
+    font-size: 0.6rem;
+    left: 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}

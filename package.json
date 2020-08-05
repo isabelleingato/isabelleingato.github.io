@@ -1,0 +1,39 @@
+{
+  "name": "iingato-personal-site",
+  "private": true,
+  "description": "Isabelle Ingato's personal site",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "lint": "eslint ./**/*.js",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "debug": "node --nolazy node_modules/.bin/gatsby develop --inspect-brk"
+  },
+  "dependencies": {
+    "gatsby": "^2.24.26",
+    "gatsby-plugin-sass": "^2.3.12",
+    "gatsby-plugin-theme-ui": "^0.3.0",
+    "gatsby-plugin-typography": "^2.5.10",
+    "node-sass": "^4.14.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-typography": "^0.16.19",
+    "theme-ui": "^0.3.1",
+    "typography": "^0.16.19",
+    "typography-theme-fairy-gates": "^0.16.19",
+    "typography-theme-funston": "^0.16.19"
+  },
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "eslint-plugin-react": "^7.20.5",
+    "prettier": "2.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/isabelleingato/isabelleingato.github.io"
+  }
+}
