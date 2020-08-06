@@ -1,0 +1,8 @@
+.container {
+    background-color: #000;
+    display: none;
+}
+
+.container.open {
+    display: block;
+}

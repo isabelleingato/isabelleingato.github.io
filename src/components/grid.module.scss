@@ -1,7 +1,8 @@
 .container {
+    margin: 0 auto;
+    width: 80%;
     display: grid;
-    grid-template-columns: 30% 40% 30%;
-    grid-template-rows: repeat(2, auto);
+    grid-template-columns: 33% 33% 33%;
     grid-gap: 0;
     text-align: center;
 
@@ -10,6 +11,8 @@
     }
 }
 
+// TODO: This isn't very programmatic/extensible as more projects are added.
+// Do better.
 .project:nth-child(1) {
     grid-column: 1 / span 2;
 }
@@ -19,11 +22,34 @@
 }
 
 .project:nth-child(3) {
-    grid-column: 1;
+    grid-column: 1 / span 3;
 }
 
 .project:nth-child(4) {
+    grid-column: 1;
+}
+
+.project:nth-child(5) {
     grid-column: 2 / span 2;
+}
+
+.linkProject {
+    font-weight: 600;
+    margin-top: 50%;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.project:hover {
+    img, video {
+        opacity: 0.2;
+    }
+
+    .overlay {
+        visibility: visible;
+    }
 }
 
 .overlay {
@@ -38,24 +64,5 @@ img, video {
     & + .overlay {
         bottom: 50%;
         position: relative;
-    }
-} 
-
-.linkProject {
-    margin-top: 50%;
-
-    a {
-        font-weight: 600;
-        text-decoration: none;
-    }
-}
-
-.project:hover {
-    img, video {
-        opacity: 0.2;
-    }
-
-    .overlay {
-        visibility: visible;
     }
 }
