@@ -3,12 +3,16 @@
     width: 80%;
     display: grid;
     grid-template-columns: 33% 33% 33%;
-    grid-gap: 0;
+    grid-gap: 0.2rem;
     text-align: center;
 
     img {
         margin-bottom: 0;
     }
+}
+
+.project {
+    position: relative;
 }
 
 // TODO: This isn't very programmatic/extensible as more projects are added.
@@ -42,27 +46,41 @@
     }
 }
 
+.modalButton {
+    color: #005875;
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
 .project:hover {
     img, video {
         opacity: 0.2;
     }
 
     .overlay {
-        visibility: visible;
+        display: block;
+    }
+
+    .modalButton {
+        display: block;
     }
 }
 
 .overlay {
     color: #005875;
+    display: none;
     font-size: 2rem;
     font-weight: 700;
     text-align: center;
-    visibility: hidden;
 }
 
 img, video {
     & + .overlay {
-        bottom: 50%;
-        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
     }
 }

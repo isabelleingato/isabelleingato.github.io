@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 
 const Recommendation = props => (
-    <li><i>{props.title}</i> by {props.author}</li>
+    <li className="fade animated"><i>{props.title}</i> by {props.author}</li>
 );
 
 export default function Recommendations() {

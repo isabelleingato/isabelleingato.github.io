@@ -1,11 +1,28 @@
+@import './animations.scss';
+
 body { 
     background-color: #F5F5F5;
 }
 
-a:hover {
+p {
+    margin-bottom: 0;
+}
+
+a:hover, button:hover {
     color: #00573B;
 }
 
 img {
     border-radius: 5%;
+}
+
+button {
+    background: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.noscroll {
+    overflow: hidden;
 }

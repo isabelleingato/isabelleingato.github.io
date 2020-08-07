@@ -3,9 +3,9 @@ import modalStyles from "./modal.module.scss"
 
 export default function Modal({children, handleClose, isOpen}) {
     return (
-        <div className={isOpen ? 'open ' : '' + modalStyles.container}>
+        <div className={(isOpen ? modalStyles.open : modalStyles.closed)}>
             <div className={modalStyles.modal}>
-                <div className={modalStyles.closeButton} onClick={handleClose} aria-label="Close">X</div>
+                <button className={modalStyles.closeButton} onClick={handleClose} aria-label="Close">X</button>
                 {children}
             </div>
         </div>
