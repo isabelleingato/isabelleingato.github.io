@@ -16,6 +16,7 @@
     "deploy": "gatsby build && gh-pages -d public -b public-deploy"
   },
   "dependencies": {
+    "bootstrap": "^4.5.2",
     "gatsby": "^2.24.26",
     "gatsby-plugin-sass": "^2.3.12",
     "gatsby-plugin-theme-ui": "^0.3.0",
@@ -24,6 +25,7 @@
     "gatsby-transformer-remark": "^2.8.28",
     "node-sass": "^4.14.1",
     "react": "^16.12.0",
+    "react-bootstrap": "^1.3.0",
     "react-dom": "^16.12.0",
     "react-typography": "^0.16.19",
     "theme-ui": "^0.3.1",
