@@ -1,0 +1,57 @@
+ul {
+    list-style: none;
+    margin: 1rem 0;
+}
+
+.display-plus-code-container {
+    display: flex;
+}
+
+.code {
+    margin-left: 1rem;
+}
+
+.wrapper {
+    width: 400px;
+    height: 300px;
+    position: relative;
+}
+
+#battle3 {
+    background: #6592CF;
+    padding: 75px 50px;
+}
+
+#battle3 div {
+    background: radial-gradient(circle at 50%, #EEB850 15%, #243D83 16%, #243D83 44%, #6592CF 45%, #6592CF 74%, #243D83 75%);
+    width: 300px;
+    height: 150px;
+}
+
+#battle4 {
+    background: #62306D;
+}
+
+#battle4 div {
+    background: #F7EC7D;
+    border-radius:0 0 50px 50px;
+    width:100px;
+    height:100px;
+    position:absolute;
+    left:50px;
+    bottom:50px;
+}
+
+#battle5 {
+    background: #0B2429;
+    z-index: -2;
+}
+#battle5 div {
+    background: #F3AC3C;
+    border-radius:75px 0 75px 75px;
+    width:120px;
+    height:120px;
+    position:absolute;
+    left:80px;
+    bottom:30px;
+}
