@@ -1,5 +1,5 @@
 import "./src/styles/global.scss";
-import * as React from "react";
+/*import * as React from "react";
 import { Profiler } from "react";
 
 function capturePageMetrics(
@@ -21,4 +21,4 @@ export const wrapPageElement = ({ element, props }) => (
   <Profiler id={props.someUniqueId} onRender={capturePageMetrics}>
     {element}
   </Profiler>
-)
+)*/
