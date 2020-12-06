@@ -1,86 +1,88 @@
 .container {
-    margin: 0 auto;
-    width: 80%;
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    grid-gap: 0.2rem;
-    text-align: center;
+  margin: 0 auto;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-gap: 0.2rem;
+  text-align: center;
 
-    img {
-        margin-bottom: 0;
-    }
+  img {
+    margin-bottom: 0;
+  }
 }
 
 .project {
-    position: relative;
+  position: relative;
 }
 
 // TODO: This isn't very programmatic/extensible as more projects are added.
 // Do better.
 .project:nth-child(1) {
-    grid-column: 1 / span 2;
+  grid-column: 1 / span 2;
 }
 
 .project:nth-child(2) {
-    grid-column: 3;
+  grid-column: 3;
 }
 
 .project:nth-child(3) {
-    grid-column: 1 / span 3;
+  grid-column: 1 / span 3;
 }
 
 .project:nth-child(4) {
-    grid-column: 1;
+  grid-column: 1;
 }
 
 .project:nth-child(5) {
-    grid-column: 2 / span 2;
+  grid-column: 2 / span 2;
 }
 
 .linkProject {
-    font-weight: 600;
-    margin-top: 50%;
+  font-weight: 600;
+  margin-top: 50%;
 
-    a {
-        text-decoration: none;
-    }
+  a {
+    text-decoration: none;
+  }
 }
 
 .modalButton {
-    color: #005875;
-    display: none;
-    position: absolute;
-    top: 0;
-    right: 0;
+  color: #005875;
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .project:hover {
-    img, video {
-        opacity: 0.2;
-    }
+  img,
+  video {
+    opacity: 0.2;
+  }
 
-    .overlay {
-        display: block;
-    }
+  .overlay {
+    display: block;
+  }
 
-    .modalButton {
-        display: block;
-    }
+  .modalButton {
+    display: block;
+  }
 }
 
 .overlay {
-    color: #005875;
-    display: none;
-    font-size: 2rem;
-    font-weight: 700;
-    text-align: center;
+  color: #005875;
+  display: none;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
 }
 
-img, video {
-    & + .overlay {
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        position: absolute;
-    }
+img,
+video {
+  & + .overlay {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+  }
 }

@@ -1,28 +1,33 @@
-@import './animations.scss';
+@import "./animations.scss";
 
-body { 
-    background-color: #F5F5F5;
+body {
+  background-color: #f5f5f5;
 }
 
 p {
-    margin-bottom: 0;
+  margin-bottom: 0;
+
+  ::first-letter {
+    font: x-large;
+  }
 }
 
-a:hover, button:hover {
-    color: #00573B;
+a:hover,
+button:hover {
+  color: #00573b;
 }
 
 img {
-    border-radius: 5%;
+  border-radius: 5%;
 }
 
 button {
-    background: transparent;
-    outline: none;
-    border: none;
-    cursor: pointer;
+  background: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
 }
 
 .noscroll {
-    overflow: hidden;
+  overflow: hidden;
 }
