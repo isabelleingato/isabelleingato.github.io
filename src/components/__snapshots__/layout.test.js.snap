@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "margin": "5vmin",
+    }
+  }
+>
+  <header>
+    <h1>
+      Isabelle Ingato
+    </h1>
+    <ul
+      className="navLinks"
+      role="navigation"
+    >
+      <li>
+        <a
+          href="/"
+        >
+          Home
+        </a>
+      </li>
+      <li>
+        <a
+          href="/about/"
+        >
+          About
+        </a>
+      </li>
+      <li>
+        <a
+          href="/recommendations/"
+        >
+          Reviews & Recommendations
+        </a>
+      </li>
+      <li>
+        <a
+          href="/blog/"
+        >
+          Blog
+        </a>
+      </li>
+      <li>
+        <a
+          href="/cssbattles/"
+        >
+          My CSS Battles Submissions
+        </a>
+      </li>
+    </ul>
+  </header>
+  <footer>
+    Check out the 
+    <a
+      href="https://github.com/isabelleingato/isabelleingato.github.io"
+      target="_blank"
+    >
+      repo
+    </a>
+     for this site.
+  </footer>
+</div>
+`;

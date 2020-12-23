@@ -13,7 +13,8 @@
     "clean": "gatsby clean",
     "profile": "gatsby build --profile",
     "debug": "gatsby develop --inspect-brk",
-    "deploy": "gatsby build && gh-pages -d public -b public-deploy"
+    "deploy": "gatsby build && gh-pages -d public -b public-deploy",
+    "test": "jest"
   },
   "dependencies": {
     "bootstrap": "^4.5.2",
@@ -25,10 +26,12 @@
     "gatsby-plugin-typography": "^2.5.10",
     "gatsby-source-filesystem": "^2.3.24",
     "gatsby-transformer-remark": "^2.8.28",
+    "identity-obj-proxy": "^3.0.0",
     "node-sass": "^4.14.1",
     "react": "^16.12.0",
     "react-bootstrap": "^1.3.0",
     "react-dom": "^16.12.0",
+    "react-test-renderer": "^17.0.1",
     "react-typography": "^0.16.19",
     "theme-ui": "^0.3.1",
     "typography": "^0.16.19",
@@ -39,6 +42,7 @@
     "eslint": "^7.6.0",
     "eslint-plugin-react": "^7.20.5",
     "gh-pages": "^3.1.0",
+    "jest": "^26.6.3",
     "prettier": "2.0.5"
   },
   "repository": {
