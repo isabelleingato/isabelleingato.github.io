@@ -1,0 +1,12 @@
+drafts/
+*.md
+*.json
+*.html
+.lighthouseci
+.git
+.cache
+__mocks__
+.vscode
+node_modules
+public
+src/assets

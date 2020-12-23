@@ -32,16 +32,16 @@ exports[`Layout renders correctly 1`] = `
       </li>
       <li>
         <a
-          href="/recommendations/"
+          href="/blog/"
         >
-          Reviews & Recommendations
+          Blog
         </a>
       </li>
       <li>
         <a
-          href="/blog/"
+          href="/bookmarks/"
         >
-          Blog
+          Bookmarks for Developers
         </a>
       </li>
       <li>
@@ -51,17 +51,26 @@ exports[`Layout renders correctly 1`] = `
           My CSS Battles Submissions
         </a>
       </li>
+      <li>
+        <a
+          href="/recommendations/"
+        >
+          Reviews & Recommendations
+        </a>
+      </li>
     </ul>
   </header>
   <footer>
-    Check out the 
+    Check out the
+     
     <a
       href="https://github.com/isabelleingato/isabelleingato.github.io"
       target="_blank"
     >
       repo
     </a>
-     for this site.
+     
+    for this site.
   </footer>
 </div>
 `;

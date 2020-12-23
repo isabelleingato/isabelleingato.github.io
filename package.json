@@ -6,7 +6,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "format": "prettier --write \"**/*.js\"",
     "lint": "eslint ./**/*.js",
     "start": "npm run develop",
     "serve": "gatsby serve",
@@ -14,7 +14,8 @@
     "profile": "gatsby build --profile",
     "debug": "gatsby develop --inspect-brk",
     "deploy": "gatsby build && gh-pages -d public -b public-deploy",
-    "test": "jest"
+    "test": "jest",
+    "lighthouse": "lhci collect && lhci assert"
   },
   "dependencies": {
     "bootstrap": "^4.5.2",
@@ -43,7 +44,8 @@
     "eslint-plugin-react": "^7.20.5",
     "gh-pages": "^3.1.0",
     "jest": "^26.6.3",
-    "prettier": "2.0.5"
+    "prettier": "2.0.5",
+    "@lhci/cli": "0.6.1"
   },
   "repository": {
     "type": "git",

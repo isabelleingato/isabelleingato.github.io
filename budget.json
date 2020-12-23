@@ -1,0 +1,30 @@
+[
+  {
+    "path": "/",
+    "resourceSizes": [
+      {
+        "resourceType": "total",
+        "budget": 100
+      },
+      {
+        "resourceType": "script",
+        "budget": 50
+      }
+    ],
+    "resourceCounts": [
+      {
+        "resourceType": "third-party",
+        "budget": 10
+      }
+    ]
+  },
+  {
+    "path": "/blog",
+    "resourceSizes": [
+      {
+        "resourceType": "total",
+        "budget": 200
+      }
+    ]
+  }
+]

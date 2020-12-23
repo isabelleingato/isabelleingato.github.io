@@ -6,16 +6,16 @@ body {
 }
 
 p {
-  margin-bottom: 0;
-
-  ::first-letter {
+  &::first-letter {
     font: x-large;
   }
 }
 
-a:hover,
-button:hover {
-  color: #00573b;
+@media (hover) {
+  a:hover,
+  button:hover {
+    color: #00573b;
+  }
 }
 
 img {

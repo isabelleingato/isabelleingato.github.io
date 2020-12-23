@@ -70,3 +70,5 @@ yarn-error.log
 
 # VSCode Configs
 .vscode
+
+.lighthouseci

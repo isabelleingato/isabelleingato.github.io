@@ -54,24 +54,26 @@
   right: 0;
 }
 
-.project:hover {
-  img,
-  video {
-    opacity: 0.2;
-  }
+@media (hover) {
+  .project:hover {
+    img,
+    video {
+      opacity: 0.2;
+    }
 
-  .overlay {
-    display: block;
-  }
+    .overlay {
+      visibility: visible;
+    }
 
-  .modalButton {
-    display: block;
+    .modalButton {
+      display: block;
+    }
   }
 }
 
 .overlay {
   color: #005875;
-  display: none;
+  visibility: hidden;
   font-size: 2rem;
   font-weight: 700;
   text-align: center;
