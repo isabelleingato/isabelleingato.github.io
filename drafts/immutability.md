@@ -1,0 +1,1 @@
+https://redux.js.org/recipes/structuring-reducers/immutable-update-patterns

@@ -67,6 +67,10 @@ export default function OpenSource() {
           link="https://html.spec.whatwg.org/multipage/webstorage.html"
           title="WebStorage Spec"
         ></Bookmark>
+        <Bookmark
+          link="https://github.com/OWASP/CheatSheetSeries"
+          title="OWASP Cheat Sheet"
+        ></Bookmark>
       </ul>
     </Layout>
   );
