@@ -53,6 +53,7 @@ const Project = (props) => {
       </button>
       <Modal handleClose={handleCloseModal} isOpen={isOpen}>
         <p>{props.description}</p>
+        {props.repo && <a href={props.repo}>(Repo)</a>}
       </Modal>
     </div>
   );
@@ -76,6 +77,7 @@ export default function Grid() {
       <Project
         link="https://mlchow.github.io/cos333-project/"
         video={ProgressReport}
+        repo="https://github.com/mlchow/cos333-project"
         title="Progress Report"
         year="2016"
         description="Over the course of a semester with 3 friends, built a major, minor, and course suggestion and tracking tool for students at Princeton."
