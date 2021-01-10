@@ -23,6 +23,10 @@ export default function Recommendations() {
             title="The Pragmatic Programmer"
             author="Andrew Hunt and David Thomas"
           ></Recommendation>
+          <Recommendation
+            title="Learning JavaScript Design Patterns"
+            author="Addy Osmani"
+          ></Recommendation>
         </ul>
         <h3>Fiction</h3>
         <ul>

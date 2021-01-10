@@ -1,5 +1,5 @@
 ---
-title: "Reading RFCs Journey: Websockets"
+title: "Reading RFCs: Websockets"
 date: "2020-08-22"
 ---
 

@@ -92,7 +92,8 @@ export default function Grid() {
         img={Scrapbook}
         title="Facebook-integrated photos app"
         year="2014"
-        description="Over 6 weeks after freshman year with two friends, implemented the Eigenface (facial recognition) algorithm in Java and then created an app to analyze friend group interconnections using photo tags. The ultimate goal would have been to compare our facial recognition software to Facebook's."
+        repo="https://github.com/raguilar1/facial-recognition"
+        description="Over 6 weeks after freshman year, with two classmates, implemented the Eigenface (facial recognition) algorithm in Java and then created an app to analyze friend group interconnections using photo tags. The ultimate goal would have been to compare our facial recognition software to Facebook's."
       ></Project>
       <Project
         title="Sentiment Analysis on Course Evaluations"
