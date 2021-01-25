@@ -1,0 +1,12 @@
+.container {
+    width: max-content;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-15deg);
+    background: white;
+    border: solid orange 10px;
+    font: 48px bold;
+    z-index: 30;
+    padding: 24px;
+}

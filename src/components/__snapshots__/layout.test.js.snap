@@ -32,16 +32,9 @@ exports[`Layout renders correctly 1`] = `
       </li>
       <li>
         <a
-          href="/blog/"
-        >
-          Blog
-        </a>
-      </li>
-      <li>
-        <a
           href="/bookmarks/"
         >
-          Bookmarks for Developers
+          My Bookmarks
         </a>
       </li>
       <li>
@@ -72,5 +65,10 @@ exports[`Layout renders correctly 1`] = `
      
     for this site.
   </footer>
+  <div
+    className="container"
+  >
+    Site Under Construction
+  </div>
 </div>
 `;

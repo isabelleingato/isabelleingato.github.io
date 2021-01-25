@@ -14,11 +14,7 @@ export default function OpenSource() {
   return (
     <Layout>
       <h2>Bookmarks</h2>
-      <p>
-        An ever-growing list of the key (mostly primary) sources I wish I had
-        bookmarked when I started as a developer and which I look to now
-        frequently...
-      </p>
+      <p>Sources I wish I had bookmarked when I started as a developer:</p>
       <ul>
         <Bookmark
           link="https://html.spec.whatwg.org/multipage/references.html"

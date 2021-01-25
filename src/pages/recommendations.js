@@ -28,7 +28,7 @@ export default function Recommendations() {
             author="Addy Osmani"
           ></Recommendation>
         </ul>
-        <h3>Fiction</h3>
+        {/*<h3>Fiction</h3>
         <ul>
           <Recommendation
             title="Freedom"
@@ -42,7 +42,7 @@ export default function Recommendations() {
             title="Tunneling to the Center of the Earth"
             author="Kevin Wilson"
           ></Recommendation>
-        </ul>
+        </ul>*/}
         <h3>Nonfiction</h3>
         <ul>
           <Recommendation

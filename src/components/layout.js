@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
+import Warning from "./warning";
 import layoutStyles from "./layout.module.scss";
 
 const ListLink = (props) => (
@@ -16,9 +17,9 @@ export default function Layout({ children }) {
         <ul role="navigation" className={layoutStyles.navLinks}>
           <ListLink to="/">Home</ListLink>
           <ListLink to="/about/">About</ListLink>
-          <ListLink to="/blog/">Blog</ListLink>
+          {/*<ListLink to="/blog/">Blog</ListLink>*/}
           {/*<ListLink to="/opensource">Open Source Contributions</ListLink>*/}
-          <ListLink to="/bookmarks/">Bookmarks for Developers</ListLink>
+          <ListLink to="/bookmarks/">My Bookmarks</ListLink>
           <ListLink to="/cssbattles/">My CSS Battles Submissions</ListLink>
           <ListLink to="/recommendations/">
             Reviews &#38; Recommendations
@@ -36,6 +37,7 @@ export default function Layout({ children }) {
         </a>{" "}
         for this site.
       </footer>
+      <Warning></Warning>
     </div>
   );
 }
