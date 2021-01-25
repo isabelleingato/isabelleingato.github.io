@@ -1,0 +1,9 @@
+{
+  "main.js": "render-page.js",
+  "main.js.map": "render-page.js.map",
+  "static/fake_news_challenge.pdf": "static/fake_news_challenge-b225b992a4530f6f1a45844373bd636a.pdf",
+  "static/iingato_profile_photo.jpg": "static/iingato_profile_photo-4a12dde43ca1797d7b320f2f62e88bef.jpg",
+  "static/linus.png": "static/linus-a68a181ae43eca2d8e9550f07a3b63ea.png",
+  "static/progress_report.mp4": "static/progress_report-872fdb9fb0ecca1167e0faa1414fb22f.mp4",
+  "static/scrapbook.png": "static/scrapbook-ff7976c03f2ea90963c4c133f9737411.png"
+}
