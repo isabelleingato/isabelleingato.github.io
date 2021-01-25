@@ -75,11 +75,8 @@ Hopefully, this post helped clarify some of the mystique of GraphQL for you so t
 <br><br>
 ## Additional Resources and Readings:
 * [Official Spec](http://spec.graphql.org/June2018/)
-* https://github.com/graphql/express-graphql
 * https://www.gatsbyjs.com/docs/how-to/querying-data/running-queries-with-graphiql/
 * https://github.com/graphql/graphql-js
-* https://www.howtographql.com/advanced/4-security/
-* https://www.prisma.io/blog/graphql-server-basics-the-schema-ac5e2950214e
 * https://graphql.org/learn/execution/#root-fields-resolvers
 * https://jacobwgillespie.com/2015-10-09-from-rest-to-graphql/#.tag7nzkrb
 * https://medium.com/the-graphqlhub/your-first-graphql-server-3c766ab4f0a2#.ovn0y19k4

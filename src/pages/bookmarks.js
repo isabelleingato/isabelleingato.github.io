@@ -71,6 +71,10 @@ export default function OpenSource() {
           link="https://github.com/OWASP/CheatSheetSeries"
           title="OWASP Cheat Sheet"
         ></Bookmark>
+        <Bookmark
+          link="https://bugs.webkit.org/"
+          title="WebKit Bug Tracker"
+        ></Bookmark>
       </ul>
     </Layout>
   );

@@ -34,6 +34,12 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-transformer-remark`,
     `gatsby-plugin-offline`,
-    `gatsby-plugin-netlify`,
+    {
+      resolve: `gatsby-plugin-netlify`,
+      options: {
+        mergeSecurityHeaders: true, // boolean to turn off the default security headers
+        mergeLinkHeaders: true, // boolean to turn off the default gatsby js headers
+      },
+    },
   ],
 };
