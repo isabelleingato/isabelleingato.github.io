@@ -11,14 +11,15 @@ export default function About() {
         alt="Profile photo for Isabelle Ingato"
       />
       <p>
-        I'm a Senior Software Engineer in Hoboken, NJ. Find out more about me on{" "}
+        I'm a Senior Software Engineer based in Central NJ. Find out more about
+        me on{" "}
         <a
           href="https://www.linkedin.com/pub/isabelle-ingato/70/486/a74"
           target="_blank"
         >
           LinkedIn
         </a>{" "}
-        or{" "}
+        and{" "}
         <a href="https://github.com/isabelleingato" target="_blank">
           GitHub
         </a>

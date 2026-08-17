@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 import Warning from "./warning";
-import layoutStyles from "./layout.module.scss";
+import * as layoutStyles from "./layout.module.scss";
 
 const ListLink = (props) => (
   <li>
@@ -11,8 +11,9 @@ const ListLink = (props) => (
 
 export default function Layout({ children }) {
   return (
-    <div style={{ margin: `5vmin` }}>
+    <div style={{ margin: `10vmin 5vmin` }}>
       <header>
+        <Warning />
         <h1>Isabelle Ingato</h1>
         <ul role="navigation" className={layoutStyles.navLinks}>
           <ListLink to="/">Home</ListLink>
@@ -35,7 +36,7 @@ export default function Layout({ children }) {
         >
           repo
         </a>{" "}
-        for this site.
+        for this site. <b>Notice: This site is currently under construction.</b>
       </footer>
       <Warning></Warning>
     </div>

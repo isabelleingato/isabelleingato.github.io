@@ -1,5 +1,5 @@
 import React from "react";
-import modalStyles from "./modal.module.scss";
+import * as modalStyles from "./modal.module.scss";
 //import Modal from "react-bootstrap/Modal";
 
 // TODO: Just use react-bootstrap for goodness sake?

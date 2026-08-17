@@ -1,5 +1,5 @@
 import React from "react";
-import gridStyles from "./grid.module.scss";
+import * as gridStyles from "./grid.module.scss";
 import Modal from "./modal";
 import Linus from "../assets/linus.png";
 import Scrapbook from "../assets/scrapbook.png";
@@ -72,7 +72,7 @@ export default function Grid() {
         link="https://github.com/isabelleingato/breakit2016"
         title="BuildItBreakItFixIt Competition"
         year="2016"
-        description="In one evening with 2 friends, wrote scripts demonstrating security and other vulnerabilities in competitor teams' servers."
+        description="In one evening with 2 friends, wrote scripts demonstrating security and other vulnerabilities in competitor teams' servers (red team simulation)."
       ></Project>
       <Project
         link="https://mlchow.github.io/cos333-project/"
@@ -80,20 +80,20 @@ export default function Grid() {
         repo="https://github.com/mlchow/cos333-project"
         title="Progress Report"
         year="2016"
-        description="Over the course of a semester with 3 friends, built a major, minor, and course suggestion and tracking tool for students at Princeton."
+        description="Built a major, minor, and course suggestion engine as well as degree progress tracking tool for students at Princeton."
       ></Project>
       <Project
         link={FakeNewsChallenge}
         title="Fake News Challenge"
         year="2017"
-        description="As a final project for COS 401 with a friend, trained, tested, and analyzed a multi-label classifier for stance detection."
+        description="As a final project for COS 401, trained, tested, and analyzed a multi-label classifier for stance detection."
       ></Project>
       <Project
         img={Scrapbook}
         title="Facebook-integrated photos app"
         year="2014"
         repo="https://github.com/raguilar1/facial-recognition"
-        description="Over 6 weeks after freshman year, with two classmates, implemented the Eigenface (facial recognition) algorithm in Java and then created an app to analyze friend group interconnections using photo tags. The ultimate goal would have been to compare our facial recognition software to Facebook's."
+        description="Over 6 weeks after freshman year, worked as an intern team to implement the Eigenface (facial recognition) algorithm in Java. Also created an app to analyze social graphs using social media photo tags."
       ></Project>
       <Project
         title="Sentiment Analysis on Course Evaluations"

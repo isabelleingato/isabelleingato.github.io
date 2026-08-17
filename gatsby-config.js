@@ -5,7 +5,6 @@ module.exports = {
     description: `Personal website for Isabelle Ingato`,
   },
   plugins: [
-    //`gatsby-plugin-theme-ui`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -38,7 +37,6 @@ module.exports = {
       resolve: `gatsby-plugin-netlify`,
       options: {
         mergeSecurityHeaders: true, // boolean to turn off the default security headers
-        mergeLinkHeaders: true, // boolean to turn off the default gatsby js headers
       },
     },
   ],

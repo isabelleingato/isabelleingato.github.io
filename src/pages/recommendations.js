@@ -4,6 +4,7 @@ import Layout from "../components/layout";
 const Recommendation = (props) => (
   <li className="fade animated">
     <i>{props.title}</i> by {props.author}
+    {props?.why && <p style={{ "font-size": "10px" }}>{props.why}</p>}
   </li>
 );
 
@@ -15,6 +16,11 @@ export default function Recommendations() {
         <h2>Books</h2>
         <h3>Tech</h3>
         <ul>
+          <Recommendation
+            title="The Staff Engineer's Path"
+            author="Tanya Reilly"
+            why="A critical guide to building a mental 'map' of how change happens and how to get things done in your particular organization."
+          ></Recommendation>
           <Recommendation
             title="Code"
             author="Charles Petzold"
@@ -45,6 +51,11 @@ export default function Recommendations() {
         </ul>*/}
         <h3>Nonfiction</h3>
         <ul>
+          <Recommendation
+            title="Leading Change"
+            author="John P Kotter"
+            why=""
+          ></Recommendation>
           <Recommendation
             title="The Anatomy of Story"
             author="John Truby"
