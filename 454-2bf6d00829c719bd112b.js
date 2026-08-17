@@ -1,0 +1,1 @@
+(self.webpackChunkiingato_personal_site=self.webpackChunkiingato_personal_site||[]).push([[454],{6454:function(){}}]);
